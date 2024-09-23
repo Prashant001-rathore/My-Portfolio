@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+main {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: #A1D6B2;
+    display: flex;
+    height: 90vh;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0px 0px 50px black;
+    border-radius: 10rem 0 7rem 0;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+form .text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: Lato;
+    font-weight: 600;
+}
+
+.text h1 {
+    text-shadow: 5px 3px 10px black;
+}
+
+form .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30vh;
+}
+
+form .list .link {
+    width: 80%;
+    height: 2.5rem;
+    background-color: #55bbd4cb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+
+
+form .list h3 {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 5px 3px 10px black;
+}
+
+form>div {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50vh;
+}
+
+form .img {
+    height: 25vh;
+    border-radius: 50%;
+    width: 25vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid skyblue;
+
+}
+
+.img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    filter: drop-shadow(0px 0px 30px skyblue);
+
+}
+
+section:hover {
+    border-radius: 0rem 10rem 0rem 7rem;
+    transition: .8s;
+}
